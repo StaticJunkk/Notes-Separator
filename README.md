@@ -1,22 +1,22 @@
-﻿#Note separator
+﻿# Note separator
 
-#Aim
+# Aim
 In a student's life notes are very useful during exam time .But after exams are over, they are of no use also our gallery section is filled with random scattered images which take's extra space and even the gallery looks bad .Note separator is programmed to detect notes images automatically and to delete the notes images.
 
-#Dataset
+# Dataset
 Dataset that is used to train the model can be found at https://drive.google.com/open?id=1y-YYS6_XE_ClmshJPhKNIiixedT6Rnkn. The above dataset contains total of 1500 images (aprox.)
 
 850 notes images (aprox.).
 650 non-notes images (aprox).
 Size of each image is -->300X300, later reduced to 150x150.
 
-#Libraries used
+# Libraries used
 Tensorflow (high level keras api is used)
 numpy
 Matplotlib (for visualizing images and other plots)
 CV2 and OS
 
-#Model Inputs and features
+# Model Inputs and features
 The model showed maximum accuracy when the learning rate was reduced to 0.001.
 It consist of 5 convolution layers. Number of nuerons in each layer from top to bottom are as follows 16,32,64,64,64. With RELU used as activation function in each layer followed by a maxpooling layer and a dropout of 0.2(initial 2 layers).
 Results are then flattened to be fed into DNN.
