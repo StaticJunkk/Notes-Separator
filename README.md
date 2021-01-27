@@ -24,14 +24,14 @@ There is 1 Dense fully connected layer consisting of 512 nuerons .
 Lastly 1 more dense layer consisting of single nueron for the output with sigmoid as activation function.
 Since dataset was small techniques like Data Agumentation had to be used.
 
-#Accuracy
+# Accuracy
 Test acc. 75%
 Training acc. 88.68%
 
-#Application
+# Application
 Note Seperator has a great role to play in a student's life, more into 'managing it'. The project is a great example of use of machine learning in day to day life.
 
-#Learning Experience
+# Learning Experience
 This project helped me to learn the following.
 
 CNN and DNN
